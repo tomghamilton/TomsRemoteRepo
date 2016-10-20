@@ -67,4 +67,19 @@ public class MathsWorkerTest {
 		assertEquals(worker.multiplyer(3,5),15);
 	}
 	
+	/**
+	 * Test method for {@link MathsWorker#multiplyer(int, int)}.
+	 */
+	@Test
+	public void testDivider() {
+		assertEquals(worker.divider(15,5),3);
+	}
+	
+	/**
+	 * Test method for {@link MathsWorker#multiplyer(int, int)}.
+	 */
+	@Test
+	public void testSubtractor() {
+		assertEquals(worker.subtracter(5,3),2);
+	}
 }

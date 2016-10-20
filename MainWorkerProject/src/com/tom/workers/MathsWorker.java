@@ -12,17 +12,30 @@ public class MathsWorker {
 	}
 
 	/*
-	 * Simple addition processing method
+	 * Simple addition processing method.  Takes 2 integers and returns their sum
 	 */
 	public int adder(int a, int b) {
 		return a + b;
 	}
 
 	/*
-	 * Simple addition processing method
+	 * Simple multiplication processing method
 	 */
 	public int multiplyer(int a, int b) {
 		return a * b;
 	}
 	
+	/*
+	 * Simple subtraction processing method
+	 */
+	public int subtracter(int a, int b) {
+		return a - b;
+	}
+	
+	/*
+	 * Simple subtraction processing method
+	 */
+	public int divider(int a, int b) {
+		return a / b;
+	}
 }
